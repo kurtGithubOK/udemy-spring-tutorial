@@ -14,6 +14,8 @@ public class SetterDemoApp {
 		// call methods on bean
 		System.out.println("From HelloSpringApp, workout is: " + coach.getDailyWorkout());
 		System.out.println("From HelloSpringApp, fortune is: " + coach.getDailyFortune());
+		System.out.println("From HelloSpringApp, email is: " + coach.getEmailAddress());
+		System.out.println("From HelloSpringApp, team is: " + coach.getTeam());
 		
 		// close context
 		context.close();
